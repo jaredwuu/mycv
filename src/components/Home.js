@@ -5,11 +5,9 @@ import About from './About'
 import Skills from './Skills'
 import Experience from './Experience'
 import Education from './Education'
-import Navbar from './Navbar'
 const Home = () => {
     return (
-        <section>
-            
+        <section>            
             <div className='container'>
                 <div className='col s12 m4 l3'>
                     <Profile />
