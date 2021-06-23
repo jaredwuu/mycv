@@ -23,8 +23,8 @@ const Progile = () => {
                             <i className='material-icons text-red-600 right'>close</i>
                         </span>
                         <p className='flex justify-start py-2'>
-                            
-                            <a href='https://github.com/jaredwuu' target='_blank' rel="noreferrer"> 
+
+                            <a href='https://github.com/jaredwuu' target='_blank' rel="noreferrer">
                                 <i className='fab fa-github px-1 grey-text text-darken-4 social-style'></i>
                             </a>
 
@@ -34,8 +34,6 @@ const Progile = () => {
                         </p>
                     </div>
                     <div className='h-full'>
-                        
-
                     </div>
                 </div>
             </div>

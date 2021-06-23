@@ -72,7 +72,7 @@ const Navbar = () => {
                     </Link>
                 </li>
                 <li className='mobinav'>
-                    <Link to='/portfolios'>
+                    <Link to='/porfolios'>
                         <i className='fas fa-address-card'></i>Portfolios
                     </Link>
                 </li>
