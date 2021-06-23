@@ -5,10 +5,11 @@ import 'materialize-css/dist/js/materialize.min.js';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 import Home from './components/Home'
 import Skills from './components/Skills'
-import Experience from './components/Experience'
-import Education from './components/Education';
+import Experiences from './components/Experiences'
+import Educations from './components/Educations';
 import Porfolios from './components/Porfolios'
 import Navbar from './components/Navbar';
+import Projects from './components/Projects';
 
 function App() {
   return (
@@ -18,9 +19,10 @@ function App() {
       <Route exact path='/' component={Home} />
         <Switch>
             <Route path='/skills' component={Skills} />
-            <Route path='/educations' component = {Education} />
-            <Route path='/experience' component={Experience} />
+            <Route path='/educations' component = {Educations} />
+            <Route path='/experiences' component={Experiences} />
             <Route path='/porfolios' component = {Porfolios} />
+            <Route path = '/projects' component = {Projects} />
         </Switch>
     </Router>   
   );

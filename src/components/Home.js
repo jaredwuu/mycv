@@ -1,28 +1,30 @@
 import React from 'react'
-import Portfolios from './Porfolios'
+import Porfolios from './Porfolios'
 import Profile from './Profile'
 import About from './About'
 import Skills from './Skills'
-import Experience from './Experience'
-import Education from './Education'
+import Experiences from './Experiences'
+import Educations from './Educations'
+
 const Home = () => {
     return (
-        <section>            
+        <section>
             <div className='container'>
-                <div className='col s12 m4 l3'>
-                    <Profile />
+                <div className='row'>
+                    <div className='col s12 m4 l3'>
+                        <Profile />
+                    </div>
+                    <div className='col s12 m8 l9'>
+                        <About />
+                        <Skills />
+                        <Experiences />
+                        <Educations />
+                        <Porfolios />                       
+                    </div>
                 </div>
-                <div className='col s12 m8 l9'>
-                    <About />
-                    <Skills />
-                    <Experience />
-                    <Education />
-                    <Portfolios />
-                </div>
-
             </div>
         </section>
-     
+
     )
 }
 

@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { HashLink as Link } from 'react-router-hash-link';
 
 const Navbar = () => {
@@ -13,7 +13,7 @@ const Navbar = () => {
                             MyCV
                         </Link>
                         <Link to='/' data-target='side-nav' className='sidenav-trigger'>
-                            <i class="material-icons hover:text-blue-500">menu</i>
+                            <i className="material-icons hover:text-blue-500">menu</i>
                         </Link>
                         <ul className='right hide-on-med-and-down'>
                             <li>
@@ -37,15 +37,20 @@ const Navbar = () => {
                                 </Link>
                             </li>
                             <li>
-                                <Link to='/portfolios' className='navbar'>
-                                    <i className='fas fa-address-card'></i>Portfolios
+                                <Link to='/porfolios' className='navbar'>
+                                    <i className='fas fa-address-card'></i>Porfolios
+                                </Link>
+                            </li>
+                            <li>
+                                <Link to='/projects' className='navbar'>
+                                    <i className='fas fa-file-signature'></i>Projects
                                 </Link>
                             </li>
                         </ul>
                     </div>
                 </div>
             </nav>
-            <ul className='sidenav right' id='side-nav'>
+            <ul className='sidenav' id='side-nav'>
                 <li className='mobinav'>
                     <Link to='/' >
                         <i className='fas fa-home'></i>Home
@@ -69,6 +74,11 @@ const Navbar = () => {
                 <li className='mobinav'>
                     <Link to='/portfolios'>
                         <i className='fas fa-address-card'></i>Portfolios
+                    </Link>
+                </li>
+                <li className='mobinav'>
+                    <Link to='/projects'>
+                        <i className='fas fa-file-signature'></i>Projects
                     </Link>
                 </li>
             </ul>
