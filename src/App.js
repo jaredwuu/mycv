@@ -10,6 +10,7 @@ import Educations from './components/Educations';
 import Porfolios from './components/Porfolios'
 import Navbar from './components/Navbar';
 import Projects from './components/Projects';
+import HtmlEditor from './components/html_editor/Html_editor';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
             <Route path='/experiences' component={Experiences} />
             <Route path='/porfolios' component = {Porfolios} />
             <Route path = '/projects' component = {Projects} />
+            <Route path='/html_editor' component = {HtmlEditor} />
         </Switch>
     </Router>   
   );
