@@ -3,9 +3,8 @@ import Porfolios from './Porfolios'
 import Profile from './Profile'
 import About from './About'
 import Skills from './Skills'
-import Experiences from './Experiences'
 import Educations from './Educations'
-import Contactme from './Contactme'
+import Footer from './Footer'
 
 const Home = () => {
     return (
@@ -18,15 +17,14 @@ const Home = () => {
                     <div className='col s12 m8 l9'>
                         <About />
                         <Skills />
-                        <Experiences />
+                        
                         <Educations />
-                        <Porfolios /> 
-                        <Contactme />                      
+                        <Porfolios />                      
                     </div>
                 </div>
             </div>
+            <Footer />
         </section>
-
     )
 }
 

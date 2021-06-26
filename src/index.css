@@ -8,7 +8,7 @@
 };
 
 .mobinav{
-    @apply text-left pl-10 hover:bg-indigo-400
+    @apply text-left hover:bg-indigo-400
 }
 
 

@@ -23,7 +23,7 @@ const Editor = (props) => {
         onChange(value)
     }
     return (
-        <div className={`text-white w-1/3 px-2 rounded-md `}>
+        <div className={`text-white px-2 rounded-md `}>
             <div className={`flex px-2 justify-between ${open ? '':'flex-none items-left w-1/3'} rounded-t-md bg-gray-700 h-8 items-center`}>
                 <div>
                     {displayName}
