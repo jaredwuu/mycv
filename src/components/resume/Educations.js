@@ -1,5 +1,5 @@
 import React from 'react'
-import Brock from './images/brocku-logo-rgb.png'
+import Brock from '../images/brocku-logo-rgb.png'
 
 
 const Education = () => {
@@ -15,7 +15,7 @@ const Education = () => {
                                     <img src={Brock} className='w-1/4 rounded-lg opacity-70 hide-on-med-only' alt='Brock-Logo' />
                                     <div className='pl-2'>
                                         SEP <strong>2018</strong> - OCT
-                                        <strong> 2021 </strong>
+                                        <strong> 2020 </strong>
                                         <br />
                                         Brock University
                                         <br />

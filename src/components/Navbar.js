@@ -61,8 +61,8 @@ const Navbar = () => {
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link to="/html_editor">
-                                            <span className='text-black hover:text-blue-700'>HtmlEditor</span>
+                                        <Link to="/todolist">
+                                            <span className='text-black hover:text-blue-700'>TodoApp</span>
                                         </Link>
                                     </li>
                                 </ul>

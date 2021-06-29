@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import emailjs from 'emailjs-com'
-import Popup from './plug-in/Popup'
+import Popup from '../plug-in/Popup'
 
 const Contactme = () => {
     const [isSent, setIsSent] = useState(false)

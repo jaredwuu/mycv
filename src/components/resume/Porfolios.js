@@ -1,6 +1,6 @@
 import React from 'react'
 import { HashLink as Link } from 'react-router-hash-link'
-import GAP from '../components/documents/GAP.pdf'
+import GAP from '../documents/GAP.pdf'
 
 const Porfolios = () => {
     return (

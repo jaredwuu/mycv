@@ -1,5 +1,5 @@
 import React from 'react'
-import ProImg from './images/profile.jpg'
+import ProImg from '../images/profile.jpg'
 const Progile = () => {
     return (
         <>

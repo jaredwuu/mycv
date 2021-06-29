@@ -4,13 +4,14 @@ import 'materialize-css/dist/js/materialize.min.js';
 
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import Home from './components/Home'
-import Skills from './components/Skills'
-import Educations from './components/Educations';
-import Porfolios from './components/Porfolios'
+import Skills from './components/resume/Skills'
+import Educations from './components/resume/Educations';
+import Porfolios from './components/resume/Porfolios'
 import Navbar from './components/Navbar';
-import Projects from './components/Projects';
+import Projects from './components/resume/Projects';
 import HtmlEditor from './components/html_editor/Html_editor';
-import Contactme from './components/Contactme';
+import Contactme from './components/resume/Contactme';
+import ToDoApp from './components/TodoApp/TodoApp';
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
         <Route path='/projects' component={Projects}/>
         <Route path='/html_editor' component={HtmlEditor}/>
         <Route path='/contactme' component={Contactme}/>
+        <Route path='/todolist' component={ToDoApp}/>
       </Switch>      
     </Router>
   );

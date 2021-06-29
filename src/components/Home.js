@@ -1,10 +1,10 @@
 import React from 'react'
-import Porfolios from './Porfolios'
-import Profile from './Profile'
-import About from './About'
-import Skills from './Skills'
-import Educations from './Educations'
-import Footer from './Footer'
+import Porfolios from './resume/Porfolios'
+import Profile from './resume/Profile'
+import About from './resume/About'
+import Skills from './resume/Skills'
+import Educations from './resume/Educations'
+import Footer from './resume/Footer'
 
 const Home = () => {
     return (
