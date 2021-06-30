@@ -32,8 +32,8 @@ const Footer = () => {
                         <div className="col l4 s12 bg-red-400">
                             <h6 className="white-text">MyProjects</h6>
                             <ul>
-                                <li><a className="grey-text text-lighten-3" href="#!">Link 1</a></li>
-                                <li><a className="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                                <li><a className="grey-text text-lighten-3" href="#!">Html Editor</a></li>
+                                <li><a className="grey-text text-lighten-3" href="#!">ToDoApp</a></li>
                                 <li><a className="grey-text text-lighten-3" href="#!">Link 3</a></li>
                                 <li><a className="grey-text text-lighten-3" href="#!">Link 4</a></li>
                             </ul>
