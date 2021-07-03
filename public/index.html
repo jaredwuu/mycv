@@ -47,13 +47,13 @@
       var instances = M.Dropdown.init(drop, {
         coverTrigger: false,
         hover: true,
-
       });
     });
     $(document).ready(function() {
     M.updateTextFields();
   });
-
+  var stylesheet = "https://app.testdome.com/content/source/stylesheets/embed.css", link = document.createElement("link"); 
+  link.href = stylesheet, link.type = "text/css", link.rel = "stylesheet", link.media = "screen,print", document.getElementsByTagName("head")[0].appendChild(link);
   </script>
 </body>
 

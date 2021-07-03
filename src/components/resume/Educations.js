@@ -10,12 +10,11 @@ const Education = () => {
                     <h6> <strong>EDUCATIONS</strong></h6>
                     <div className='row'>
                         <div className='col s12 m4 l4 xl4'>
-                            <div className='year_exp rounded-lg'>
+                            <div className='year_exp text-center rounded-lg'>
                                 <div className='flex justify-center bg-blue-500 px-2 py-2 rounded-lg'>
                                     <img src={Brock} className='w-1/4 rounded-lg opacity-70 hide-on-med-only' alt='Brock-Logo' />
                                     <div className='pl-2'>
-                                        SEP <strong>2018</strong> - OCT
-                                        <strong> 2020 </strong>
+                                        SEP 2018 - OCT 2020 
                                         <br />
                                         Brock University
                                         <br />

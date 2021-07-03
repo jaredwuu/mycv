@@ -3,7 +3,7 @@ import React from 'react'
 const Dropdown = () => {
     return (
 
-        <div className='container py-3'>
+        <div className='py-3'>
             <div>
                 <nav >
                     <div className="nav-wrapper">
