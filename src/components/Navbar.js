@@ -1,7 +1,9 @@
-import React from 'react'
+
 import { HashLink as Link } from 'react-router-hash-link';
 
 const Navbar = () => {
+    
+    
     return (
         <>
             <nav className='light-blue darken-4'>
@@ -10,7 +12,7 @@ const Navbar = () => {
                         <Link to='/' className='hover:text-blue-500 brand-logo'>
                             MyCV
                         </Link>
-                        <Link to='/' data-target='side-nav' className='sidenav-trigger'>
+                        <Link to='#' data-target='side-nav' className='sidenav-trigger'>
                             <i className="material-icons hover:text-blue-500">menu</i>
                         </Link>
                         <ul className='right hide-on-med-and-down'>
@@ -56,13 +58,29 @@ const Navbar = () => {
                                             <span className='text-black hover:text-blue-700'>Draft Board</span>                                        </Link>
                                     </li>
                                     <li>
+                                        <Link to="/memories">
+                                            <span className='text-black hover:text-blue-700'>MemoriesApp</span>
+                                        </Link>
+                                    </li>
+                                    <li>
                                         <Link to="/html_editor">
                                             <span className='text-black hover:text-blue-700'>HtmlEditor</span>
                                         </Link>
                                     </li>
+
                                     <li>
                                         <Link to="/todolist">
                                             <span className='text-black hover:text-blue-700'>TodoApp</span>
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/expense_tracker">
+                                            <span className='text-black hover:text-blue-700'>Expense Tracker</span>
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/color_picker">
+                                            <span className='text-black hover:text-blue-700'>Color Picker</span>
                                         </Link>
                                     </li>
                                 </ul>
@@ -106,21 +124,37 @@ const Navbar = () => {
                 </li>
                 <div id='dropdown1' className='dropdown-content flex justify-between'>
                     <ul>
-                        <li>
-                            <Link to='/projects'>
-                                <span className='text-black hover:text-blue-700'>Draft Board</span>
-                            </Link>
-                        </li>
-                        <li>
-                            <Link to="/html_editor">
-                                <span className='text-black hover:text-blue-700'>HtmlEditor</span>
-                            </Link>
-                        </li>
-                        <li>
-                            <Link to="/html_editor">
-                                <span className='text-black hover:text-blue-700'>HtmlEditor</span>
-                            </Link>
-                        </li>
+                    <li>
+                                        <Link to='/projects'>
+                                            <span className='text-black hover:text-blue-700'>Draft Board</span>                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/memories">
+                                            <span className='text-black hover:text-blue-700'>MemoriesApp</span>
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/html_editor">
+                                            <span className='text-black hover:text-blue-700'>HtmlEditor</span>
+                                        </Link>
+                                    </li>
+
+                                    <li>
+                                        <Link to="/todolist">
+                                            <span className='text-black hover:text-blue-700'>TodoApp</span>
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/expense_tracker">
+                                            <span className='text-black hover:text-blue-700'>Expense Tracker</span>
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/color_picker">
+                                            <span className='text-black hover:text-blue-700'>Color Picker</span>
+                                        </Link>
+                                    </li>
+
                     </ul>
                 </div>
             </ul>

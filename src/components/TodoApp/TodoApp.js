@@ -85,13 +85,14 @@ function ToDoApp() {
 
   return (
     <Router>
+      
       <div className="container border-2">
         <Header onAdd={() => setshowAddTask(!showAddTask)}
           showAdd={showAddTask} />
         <Route
           path='/todolist'
           exact render={(props) => (
-            <>
+            <div className='center'>
               {showAddTask && <AddTask onAdd={addTask} />}
               {tasks.length > 0 ? (
                 <Tasks
@@ -102,7 +103,7 @@ function ToDoApp() {
               ) : (
                 'No Tasks To Show'
               )}
-            </>
+            </div>
 
           )}
         />

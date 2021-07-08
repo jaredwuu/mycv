@@ -1,4 +1,4 @@
-import React from 'react';
+
 import 'materialize-css/dist/css/materialize.min.css';
 import 'materialize-css/dist/js/materialize.min.js';
 
@@ -12,6 +12,9 @@ import Projects from './components/resume/Projects';
 import HtmlEditor from './components/html_editor/Html_editor';
 import Contactme from './components/resume/Contactme';
 import ToDoApp from './components/TodoApp/TodoApp';
+import ColorPicker from './components/color_picker/ColorPicker';
+import MemoriesApp from './components/memories/MemoriesApp'
+import ExpenseTracker from './components/ExpenseTracker/ExpenseTracker'
 
 
 function App() {
@@ -28,6 +31,9 @@ function App() {
         <Route path='/html_editor' component={HtmlEditor}/>
         <Route path='/contactme' component={Contactme}/>
         <Route path='/todolist' component={ToDoApp}/>
+        <Route path='/color_picker' component={ColorPicker}/>
+        <Route path='/memories' component={MemoriesApp} />
+        <Route path='/expense_tracker' component={ExpenseTracker} />
       </Switch>      
     </Router>
   );

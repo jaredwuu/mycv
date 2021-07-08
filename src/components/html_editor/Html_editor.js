@@ -27,15 +27,15 @@ function Html_editor() {
               <div className="nav-wrapper">
                 <div className='row'>
                   <div className="col s12 l2">
-                    <a href="#!" className="brand-logo">Demo</a>
+                    <a href="#!" className="brand-logo">HTML_EDITOR</a>
                     <a href="#!" data-target="mobile-demo2" className="sidenav-trigger"><i className="material-icons">menu</i></a>
                   </div>
                   <div className="col s12 l10">
                     <ul className="right hide-on-med-and-down">
-                      <li><a href="sass.html">Sass</a></li>
-                      <li><a href="badges.html">Components</a></li>
-                      <li><a href="collapsible.html">Javascript</a></li>
-                      <li><a href="mobile.html">Mobile</a></li>
+                      <li><a href="/html_editor">Sass</a></li>
+                      <li><a href="/html_editor">Components</a></li>
+                      <li><a href="/html_editor">Javascript</a></li>
+                      <li><a href="/html_editor">Mobile</a></li>
                     </ul>
                   </div>             
 
@@ -44,10 +44,10 @@ function Html_editor() {
             </nav>
 
             <ul className="sidenav" id="mobile-demo2">
-              <li><a href="sass.html">Sass</a></li>
-              <li><a href="badges.html">Components</a></li>
-              <li><a href="collapsible.html">Javascript</a></li>
-              <li><a href="mobile.html">Mobile</a></li>
+              <li><a href="/html_editor">Sass</a></li>
+              <li><a href="/html_editor">Components</a></li>
+              <li><a href="/html_editor">Javascript</a></li>
+              <li><a href="/html_editor">Mobile</a></li>
             </ul>
           </div>
           <div className='row'>

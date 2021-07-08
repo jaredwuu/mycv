@@ -43,12 +43,12 @@ const Skill = () => {
                                 <div className='determinate blue darken-2' style={{ width: '80%' }}> </div>
                             </div>
                         </div>
-                        <div className='col s12'>
+                        {/* <div className='col s12'>
                             <p>Updating</p>
                             <div className="progress">
                                 <div className="indeterminate blue darken-2"></div>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>

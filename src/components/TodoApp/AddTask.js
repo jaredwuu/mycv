@@ -40,7 +40,8 @@ const AddTask = ({ onAdd }) => {
 
                 <div className="input-field">
                     <label className="px-4">Enter Time</label>
-                    <input type="text" value={taskTime} onChange={(e) => setTaskTime(e.target.value)} />
+                    <input type="time" id="appt" name="appt" min="00:00" max="24:00" value={taskTime} onChange={(e) => setTaskTime(e.target.value)}required />
+                    {/* <input type="text" value={taskTime} onChange={(e) => setTaskTime(e.target.value)} /> */}
                 </div>
 
                 <div className="input-field">
@@ -52,9 +53,9 @@ const AddTask = ({ onAdd }) => {
                     </p>
                 </div>
                 <div className="center py-3">
-                <button className="py-3 px-28 rounded bg-blue-500 hover:bg-blue-900" type="submit" >
-                    Save Task
-                </button>
+                    <button className="py-3 px-28 rounded bg-blue-500 hover:bg-blue-900" type="submit" >
+                        Save Task
+                    </button>
                 </div>
             </form>
         </div>

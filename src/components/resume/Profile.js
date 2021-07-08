@@ -32,6 +32,13 @@ const Progile = () => {
                                 <i className='fab fa-linkedin px-1 grey-text text-darken-4 social-style'></i>
                             </a>
                         </p>
+
+                        <a href="https://app.testdome.com/cert/4152020f95e6417392bd6dbee52ebe6f" target='_blank' rel="noreferrer" className="testdome-certificate-stamp gold">
+                            <span className="testdome-certificate-name">Jiachao Wu</span>
+                            <span className="testdome-certificate-test-name">React </span>
+                            <span className="testdome-certificate-card-logo">TestDome<br />Certificate</span>
+                        </a>
+
                     </div>
                     <div className='h-full'>
                     </div>
